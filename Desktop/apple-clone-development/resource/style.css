@@ -1,0 +1,196 @@
+
+body {
+    font: normal 100% Helvetica, Arial, sans-serif;
+}
+
+.content{
+    height: 500px;
+    background: url("../resource/images/main-image.jpg");
+    background-position: bottom;
+    background-size: cover;
+}
+.nav-bar{
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.nav-bar button{
+    flex: 1;
+    margin: 0 auto;
+    text-align: center;
+    height: 35px;
+    font-weight: bold;
+    background: linear-gradient(#999999, #676767);    
+    border-color:  #99999952;
+    border-style: double;
+    border-radius: 2px;
+}
+.nav-bar div{
+    flex: 1;
+    margin: 0 auto;
+    text-align: center;
+    height: 35px;
+    font-weight: bold;
+    background: linear-gradient(#999999, #676767);    
+    border-color:  #99999952;
+    border-style: double;
+    border-radius: 2px;
+    
+}
+
+
+.nav-bar button:hover{
+    cursor: pointer;
+    background: pink;
+}
+.nav-bar div img{
+    position: absolute;
+    top: 111px;
+    left: 1025px;
+}
+button{
+    color: rgb(245, 245, 245);
+    
+}
+input{
+    top: 1100px;
+}
+.nav-bar div input {
+    border-radius: 20px;
+    max-width: 75px;
+    background: linear-gradient(#999999, #676767);
+    box-shadow: inset 0 0 2px gray;
+    margin-top: 8px;
+   
+}
+.apple-logo img{
+    height: 20px;
+}
+.center-text{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.center-text .first-text{
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 60px;
+}
+@media (max-width: 900px) {
+    .center-text .first-text {
+    font-size: 35px;
+    padding-top: 25px;
+  }
+}
+.center-text h3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.2;
+}
+@media (max-width: 900px) {
+    .center-text h3 {
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+.center-text p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 1.2;
+}
+@media (max-width: 900px) {
+    .center-text p {
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+.last-text img{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.center-text .last-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.down-image{
+  
+}
+@media (min-width: 900px) {
+    .down-image{
+      display: flex;
+  }
+}
+.down-image img{
+    flex: 1;
+    max-width: 100%;
+}
+.down-image img:hover{
+    cursor: pointer;
+    
+}
+.first-footer {
+    font-size: 11px;
+    color: gray;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.first-footer img{
+     height: 20px;
+     vertical-align: middle;
+     
+}
+.first-footer a{
+    text-decoration: none;
+    padding-right: 5px;
+    border-left: 1px solid gray;
+    padding-left: 5px;
+    color: blue;
+}
+
+.footer{
+    padding-bottom: 30px;
+}
+
+.last-text2 {
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    border-left: 1px solid gray;
+     padding-left: 5px;
+     padding-right: 5px;
+     color: blue;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.first-footer .no-padding{
+    border-left: none;
+}
+.first-footer .reseller{
+    padding-right: 30px;
+     border-left: none;
+}
+.last-text2 .no-padding{
+    border-left: none;
+}
