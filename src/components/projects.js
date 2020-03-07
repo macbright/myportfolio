@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
 	constructor(props){
@@ -10,12 +10,64 @@ class Projects extends Component {
 	toggleCategories(){
 		if(this.state.activeTab === 0){
 			return(
+				<div className="projects-grid">
+					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					 <CardTitle style={{color: '#fff', height: '176px', 
+					 	background: 'url(https://miro.medium.com/max/701/1*enrA3AWfNX6MdcZHPAmdSA.png) center / cover'}}>
+							Calculator with React
+					 </CardTitle>
+					 <CardText>
+						 This project comes after the introduction of the React JS framework. the main aim of the project is to 
+						 learn how to build a very simple React application. 
+						 Tools: Node.js, React, React-DOM, React-Create-App, npm, CSS, ES6
+					 </CardText>
+					 <CardActions>
+						 <Button colored>Github</Button>
+						 <Button colored>LiveDemo</Button>
+					 </CardActions>
+					 <CardMenu style={{color: '#fff'}}>
+						 <IconButton name='share' />
+					 </CardMenu>
+				</Card>
+
 				<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
 					 <CardTitle style={{color: '#fff', height: '176px', 
-					 	background: ''}}>
-							React / React &amp; Redux
+					 	background: 'url(https://miro.medium.com/max/701/1*enrA3AWfNX6MdcZHPAmdSA.png) center / cover'}}>
+							Calculator with React
 					 </CardTitle>
+					 <CardText>
+						 This project comes after the introduction of the React JS framework. the main aim of the project is to 
+						 learn how to build a very simple React application. 
+						 Tools: Node.js, React, React-DOM, React-Create-App, npm, CSS, ES6
+					 </CardText>
+					 <CardActions>
+						 <Button colored>Github</Button>
+						 <Button colored>LiveDemo</Button>
+					 </CardActions>
+					 <CardMenu style={{color: '#fff'}}>
+						 <IconButton name='share' />
+					 </CardMenu>
 				</Card>
+
+				<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					 <CardTitle style={{color: '#fff', height: '176px', 
+					 	background: 'url(https://miro.medium.com/max/701/1*enrA3AWfNX6MdcZHPAmdSA.png) center / cover'}}>
+							Calculator with React
+					 </CardTitle>
+					 <CardText>
+						 This project comes after the introduction of the React JS framework. the main aim of the project is to 
+						 learn how to build a very simple React application. 
+						 Tools: Node.js, React, React-DOM, React-Create-App, npm, CSS, ES6
+					 </CardText>
+					 <CardActions>
+						 <Button colored>Github</Button>
+						 <Button colored>LiveDemo</Button>
+					 </CardActions>
+					 <CardMenu style={{color: '#fff'}}>
+						 <IconButton name='share' />
+					 </CardMenu>
+				</Card>
+				</div>
 			)
 		} else if(this.state.activeTab === 1){
 			return(
@@ -48,13 +100,13 @@ class Projects extends Component {
 						<Tab> Html </Tab>
 				</Tabs>		
 
-				<section className="projects-grid">
-					<Grid className="projects-grid">
+				
+					<Grid >
 						<Cell col={12}>
 							<div className="contect">{this.toggleCategories()}</div>
 						</Cell>
 					</Grid>		
-				</section>		
+					
 			</div>
 		)
 	}
