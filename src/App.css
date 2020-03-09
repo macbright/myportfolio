@@ -66,3 +66,17 @@
 .projects-grid{
 	display: flex;
 }
+
+.projects-grid a {
+	margin: 10px;
+	font-size: 16px;
+	color: #960ab2;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.title{
+	font-weight: bolder;
+}
+.second-row{
+	margin-top: 50px;
+}
