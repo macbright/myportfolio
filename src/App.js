@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{height: '700px', position: 'relative'}}>
 			<Layout fixedHeader>
-					<Header className="header-color" title={<span><span style={{ color: '#ddd' }}></span><strong>The Title</strong></span>}>
+					<Header className="header-color" title={<span><span style={{ color: '#fff' }}></span><strong><Link  className="home" to="/">My Portfolio </Link></strong></span>}>
 							<Navigation>
 									<Link to="/aboutme">About Me</Link>
 									<Link to="/contacts">Contacts</Link>
