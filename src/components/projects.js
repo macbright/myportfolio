@@ -10,8 +10,8 @@ class Projects extends Component {
 	toggleCategories(){
 		if(this.state.activeTab === 0){
 			return(
-				<div className="projects-grid">
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+				<div className="projects-grid cards">
+					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 					 <CardTitle style={{color: '#fff', height: '176px', fontWeight: 'bolder',
 					 	background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover'}}>
 							Calculator with React
@@ -35,7 +35,7 @@ class Projects extends Component {
 						 <IconButton name='share' />
 					 </CardMenu>
 				</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<Card  className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 					 <CardTitle style={{color: '#fff', height: '176px', 
 					 	background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover'}}>
 							Book Store
@@ -60,7 +60,7 @@ class Projects extends Component {
 						 <IconButton name='share' />
 					 </CardMenu>
 				</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 					 <CardTitle style={{color: '#fff', height: '176px', 
 					 	background: 'url(https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK.png) center / cover'}}>
 							Song List
@@ -89,8 +89,8 @@ class Projects extends Component {
 		} else if(this.state.activeTab === 1){
 			return(
 				<div>
-					<div className="projects-grid">
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<div className="projects-grid cards">
+						<Card className="card"  shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{color: '#fff', height: '176px',
 							background: 'url(https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png) center / cover'}}>
 								To Do List
@@ -114,7 +114,7 @@ class Projects extends Component {
 							<IconButton name='share' />
 						</CardMenu>
 					</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card"  shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{color: '#fff', height: '176px',
 							background: 'url(https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png) center / cover'}}>
 								Weather App
@@ -138,7 +138,7 @@ class Projects extends Component {
 							<IconButton name='share' />
 						</CardMenu>
 					</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{color: '#fff', height: '176px',
 							background: 'url(https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png) center / cover'}}>
 								BattleShip Game
@@ -162,8 +162,8 @@ class Projects extends Component {
 						</CardMenu>
 					</Card>
 					</div>
-					<div className="projects-grid second-row">
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<div className="projects-grid second-row cards">
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png) center / cover'}}>
 									Restuarant Page
@@ -187,7 +187,7 @@ class Projects extends Component {
 								<IconButton name='share' />
 							</CardMenu>
 						</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png) center / cover'}}>
 									Tic-Tac-Toe JavaScript
@@ -211,7 +211,7 @@ class Projects extends Component {
 								<IconButton name='share' />
 							</CardMenu>
 						</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://www.computerfever.com/wp-content/uploads/2016/04/javascript-featured.png) center / cover'}}>
 									Library Project JavaScript
@@ -241,8 +241,8 @@ class Projects extends Component {
 			)
 		} else if(this.state.activeTab === 2){
 			return(
-				<div className="projects-grid">
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+				<div className="projects-grid cards">
+					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{color: '#fff', height: '176px',
 							background: 'url(https://i.udemycdn.com/course/750x422/1414568_a0f3_2.jpg) center / cover'}}>
 								Facebook Clone
@@ -267,7 +267,7 @@ class Projects extends Component {
 							<IconButton name='share' />
 						</CardMenu>
 					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{color: '#fff', height: '176px',
 							background: 'url(https://i.udemycdn.com/course/750x422/1414568_a0f3_2.jpg) center / cover'}}>
 								Busines Site
@@ -292,7 +292,7 @@ class Projects extends Component {
 							<IconButton name='share' />
 						</CardMenu>
 					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{color: '#fff', height: '176px',
 							background: 'url(https://i.udemycdn.com/course/750x422/1414568_a0f3_2.jpg) center / cover'}}>
 								Private Event
@@ -322,8 +322,8 @@ class Projects extends Component {
 		} else if(this.state.activeTab === 3){
 			return(
 				<div>
-					<div className="projects-grid">
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<div className="projects-grid cards">
+						<Card className="card"  shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png) center / cover'}}>
 									HTML FORMS
@@ -345,7 +345,7 @@ class Projects extends Component {
 								<IconButton name='share' />
 							</CardMenu>
 						</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png) center / cover'}}>
 									TNW-clone
@@ -368,7 +368,7 @@ class Projects extends Component {
 								<IconButton name='share' />
 							</CardMenu>
 						</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png) center / cover'}}>
 									TNW-clone
@@ -392,8 +392,8 @@ class Projects extends Component {
 							</CardMenu>
 						</Card>
 					</div>
-					<div className="projects-grid second-row">
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+					<div className="projects-grid second-row cards">
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png) center / cover'}}>
 									Apple Clone ( using our grid based framework)
@@ -415,7 +415,7 @@ class Projects extends Component {
 								<IconButton name='share' />
 							</CardMenu>
 						</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png) center / cover'}}>
 									Newsweek Clone (Bookstrap)
@@ -438,7 +438,7 @@ class Projects extends Component {
 								<IconButton name='share' />
 							</CardMenu>
 						</Card>
-						<Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
+						<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 							<CardTitle style={{color: '#fff', height: '176px',
 								background: 'url(https://msatechnosoft.in/blog/wp-content/uploads/2017/04/Web-Design-using-HTML-msa-technosoft.png) center / cover'}}>
 									Response web (CSS GRID)

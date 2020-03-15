@@ -133,3 +133,36 @@
 .about{
 	width: 80% !important;
 }
+
+@media (max-width: 1040px) {
+    .cards {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      text-align: center;
+        
+    }
+		.card{
+			min-width: 400px;  
+		}
+}
+
+@media (max-width: 852px) {
+    .cards {
+			display: grid;
+			grid-template-columns: 1fr;
+      grid-gap: 2rem;
+      text-align: center;
+        
+    }
+		.card{
+			min-width: 500px;  
+		}
+}
+
+
+@media (max-width: 610px) {
+    .menu{
+			display: none;
+		}
+}

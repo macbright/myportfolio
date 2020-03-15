@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{height: '700px', position: 'relative'}}>
+    <div style={{height: '700px', position: 'relative'}} >
 			<Layout fixedHeader>
-					<Header className="header-color" title={<span><span style={{ color: '#fff' }}></span><strong><Link  className="home" to="/">My Portfolio </Link></strong></span>}>
-							<Navigation>
-									<Link to="/aboutme">About Me</Link>
-									<Link to="/contacts">Contacts</Link>
-									<Link to="/resume">Resume</Link>
-									<Link to="/projects">Projects</Link>
+					<Header className="header-color menu" title={<span><span style={{ color: '#fff' }}></span><strong><Link  className="home" to="/">My Portfolio </Link></strong></span>}>
+							<Navigation className="menu">
+									<Link className="menu" to="/aboutme">About Me</Link>
+									<Link className="menu" to="/contacts">Contacts</Link>
+									<Link className="menu" to="/resume">Resume</Link>
+									<Link className="menu" to="/projects">Projects</Link>
 							</Navigation>
 					</Header>
 					<Drawer title={<Link  style={{ color: '#000', textDecoration: 'none' }} to="/">My Portfolio </Link>} className="header-color">
