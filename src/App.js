@@ -18,10 +18,10 @@ function App() {
 					</Header>
 					<Drawer title={<Link  style={{ color: '#000', textDecoration: 'none' }} to="/">My Portfolio </Link>} className="header-color">
 							<Navigation>
-									<Link to="/aboutme">About Me</Link>
-									<Link to="/contacts">Contacts</Link>
-									<Link to="/resume">Resume</Link>
-									<Link to="/projects">Projects</Link>
+									<Link className="home" to="/aboutme">About Me</Link>
+									<Link className="home" to="/contacts">Contacts</Link>
+									<Link className="home" to="/resume">Resume</Link>
+									<Link className="home" to="/projects">Projects</Link>
 							</Navigation>
 					</Drawer>
 					<Content >	
