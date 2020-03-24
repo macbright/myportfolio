@@ -169,6 +169,6 @@
 @media only screen and  (max-width: 500px) {
     .card {
 			display: block;
-			min-width: 280px !important;
+			min-width: 270px !important;
 		}
 }
