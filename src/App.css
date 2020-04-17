@@ -133,6 +133,16 @@
 	width: 80% !important;
 }
 
+.card span {
+	font-weight: bold;
+	border-radius: 15px;
+  opacity: 0.8;
+	background-color: rgb(149, 4, 179);
+  color: #fff;
+  padding: 7px;
+	margin-top: 14rem;
+}
+
 @media only screen and  (max-width: 1040px) {
     .cards {
 			display: grid;
@@ -172,3 +182,4 @@
 			min-width: 270px !important;
 		}
 }
+
