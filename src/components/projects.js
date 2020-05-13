@@ -127,7 +127,7 @@ class Projects extends Component {
 						<strong>Tools: </strong> HTML, CSS, Javascript, webpack, Jest
 					</CardText>
 					<CardActions border>
-							<a href="https://github.com/Forison/battleShip.git"
+							<a href="https://github.com/macbright/battleShip"
 								rel="noopener noreferrer" target="_blank" >
 								Github
 							</a>	
