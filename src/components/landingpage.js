@@ -26,10 +26,14 @@ class LandingPage extends Component {
 										rel="noopener noreferrer" target="_blank">
 										<i className="fa fa-linkedin-square"  aria-hidden="true" />
 									</a>
+									<a href="https://medium.com/@brightokike"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-medium"  aria-hidden="true" />
+									</a>
 									<a href="https://github.com/macbright"
 										rel="noopener noreferrer" target="_blank">
 										<i className="fa fa-github-square"  aria-hidden="true" />
-									</a>							
+									</a>						
 								</div>
 							</div>
 						</Cell>

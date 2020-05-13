@@ -1,10 +1,17 @@
-# My Portfolio with React 
+
+<h1 align=center> **Personal Portfolio** </h1>
+
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta)
+
 
 This is my personal portfolio, built with React. This is to showcase my technical skills and to also showcase the list of some of the projects i have built personally and collaboratively. 
 
-.
 
-## Tools
+
+![sample](./src/image/portfolio.png)
+
+## Background
 
 - Node.js
 - React
@@ -14,6 +21,10 @@ This is my personal portfolio, built with React. This is to showcase my technica
 - React MDL
 - CSS
 - ES6
+
+
+## Demo
+The demo page can be found [HERE](https://happy-brahmagupta-f46e1b.netlify.com/)
 
 ## Usage
 
@@ -27,6 +38,12 @@ $ git clone https://github.com/macbright/myportfolio.git
 
 ```sh
 $ cd myportfolio
+```
+
+> install the npm packages
+
+```sh
+$ npm install
 ```
 
 > use npm or yarn to start the server (note: you must have npm and yarn install)
@@ -46,13 +63,16 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 
-## Live Demo
+## Maintainers 
 
-The demo page can be found [HERE](https://happy-brahmagupta-f46e1b.netlify.com/)
+👤  **Bright Okike**
 
-## Designed and developed by
+- Github: [@macbright](https://github.com/macbright)
+- LinkedIn: [@bokike](https://www.linkedin.com/in/bokike/)
+- Twitter: [@b_okike](https://twitter.com/b_okike)
 
-[Chukwuemeka Bright](https://github.com/macbright)
+
+
 
 ## Contributing
 
@@ -64,12 +84,5 @@ The demo page can be found [HERE](https://happy-brahmagupta-f46e1b.netlify.com/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE.md) file for details
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-
-
-
+Bright okike
+[MIT license](https://opensource.org/licenses/MIT).

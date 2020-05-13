@@ -148,16 +148,15 @@ class Projects extends Component {
 				<div className="projects-grid cards">
 					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
 						<CardTitle style={{height: '200px', 
-					 	background: `url(${images[2].src}) center / cover`}}>
-							<span	> Facebook clone </span>
+					 	background: `url(${images[8].src}) center / cover`}}>
+							<span	> Developer Connect </span>
 					 </CardTitle>
 					 <CardText style={{ color: '#000', lineHeight: '1.5'}}>
-							This project will only mock partial of Facebook functions to illustrate our knowledge on Ruby on Rails.
-							User, Post, Comment &amp; Like are 4 main models we are going to build in this project.
-							Some advance features will be implemented to increase the complexity of this project - such as "friending, 
-							friend request, Login with Real Facebook Account, Feeding with all your posts and your friends' post"
+							This is project was built to mock some functions stack overflow website with additional feature 
+							where developers can search for other developers, send and receive friend request, chat
+							 realTime with developer friends, ask questions, answer questions, like a question or an answer.
 							<br /> <br />
-							<strong>Tools: </strong> HTML, CSS, Font-awesome, Bootstrap, Ruby, Rails, Rspec
+							<strong>Tools: </strong> HTML, CSS, Font-awesome, Bootstrap, Ruby, Rails, Rspec, Jquery, JavaScript
 						</CardText>
 						<CardActions border>
 								<a href="https://github.com/macbright/facebook-clone.git"
