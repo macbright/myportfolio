@@ -15,6 +15,20 @@ class Contact extends Component {
 						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
 							Surganova 47, campus 5, hostel 13 Minsk, 220100 Belarus
 						</p>
+						<div className="social-1">
+									<a href="https://www.linkedin.com/in/bright-okike-b84b09110/"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-linkedin-square"  aria-hidden="true" />
+									</a>
+									<a href="https://medium.com/@brightokike"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-medium"  aria-hidden="true" />
+									</a>
+									<a href="https://github.com/macbright"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-github-square"  aria-hidden="true" />
+									</a>						
+								</div>
 					</Cell>
 					<Cell col={6}> 
 						<h2> Contact Me</h2>

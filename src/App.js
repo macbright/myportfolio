@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
 import Main from './components/main'
 import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{height: '700px', position: 'relative'}} >
+    <div style={{minHeight: '100vh', position: 'relative'}} >
 			<Layout fixedHeader>
 					<Header className="header-color " title={<span><span style={{ color: '#fff' }}></span><strong><Link  className="home" to="/">My Portfolio </Link></strong></span>}>
 							<Navigation className="menu">
@@ -24,9 +24,11 @@ function App() {
 									<Link className="home" to="/projects">Projects</Link>
 							</Navigation>
 					</Drawer>
+					
 					<Content >	
 						< Main />
 					</Content>
+					
 			</Layout>
 	</div>
   );

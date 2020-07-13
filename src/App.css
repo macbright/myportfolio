@@ -68,6 +68,11 @@
 	font-size: 5em;
 	padding: 8px;
 }
+.social-1 i {
+	color: black;
+	font-size: 3em;
+	padding: 8px;
+}
 
 .projects-grid{
 	display: flex;
@@ -128,7 +133,10 @@
 	background: #27221F;
   color: white;
   padding: 2em;
+	height: 100vh;
+	overflow: scroll;
 }
+
 .about{
 	width: 80% !important;
 }

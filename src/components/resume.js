@@ -10,13 +10,13 @@ class Resume extends Component {
 		return (
 			<div>
 				<Grid>
-					<Cell col={4}> 
+					<Cell className="resume-left-col" col={4}> 
 						<div style={{textAlign: 'center'}}>
 							<img src={bright}
 							alt="avater"
 							style={{height: '200px'}} />
 						</div>
-						<h2 style={{paddingTop: '2em'}}> Bright Okike</h2>
+						<h2 style={{paddingTop: '1em'}}> Bright Okike</h2>
 						<h4 style={{color: 'grey'}}>Programmer </h4>
 						<hr style={{borderTop: '3px solid #033fb2'}} />
 						<p> 
@@ -32,6 +32,20 @@ class Resume extends Component {
 						<h5>Email</h5>
 						<p>brightokike@gmail.com</p>
 						<hr style={{borderTop: '3px solid #033fb2'}} />
+						<div className="social-1">
+									<a href="https://www.linkedin.com/in/bright-okike-b84b09110/"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-linkedin-square"  aria-hidden="true" />
+									</a>
+									<a href="https://medium.com/@brightokike"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-medium"  aria-hidden="true" />
+									</a>
+									<a href="https://github.com/macbright"
+										rel="noopener noreferrer" target="_blank">
+										<i className="fa fa-github-square"  aria-hidden="true" />
+									</a>						
+								</div>
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
 						<h2>Education</h2>
