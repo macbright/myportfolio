@@ -16,7 +16,7 @@ class LandingPage extends Component {
 							/>
 
 							<div className="banner-text">
-								< marquee> <h1> Full Stack Web Developer</h1> </marquee>
+								< marquee> <h1> Frontend / Backend / Full Stack Web Developer</h1> </marquee>
 							
 								<hr />
 								<p> HTML/CSS | Bootstrap  | Semantic UI  | JavaSript  | Webpack  | React |  
