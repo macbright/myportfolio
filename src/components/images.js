@@ -7,6 +7,7 @@ import weather from '../image/weather.png'
 import calculator from '../image/calculator.png'
 import railbookstore from '../image/bookstore2.png'
 import developer from '../image/developer.png'
+import tictactoe from '../image/tictactoe.png'
 
 const images = [
   { id: 1, src: battleship, title: 'battle', description: 'bar' },
@@ -18,6 +19,7 @@ const images = [
 	{ id: 7, src: calculator, title: 'calculator', description: 'bar' },
 	{ id: 8, src: railbookstore, title: 'calculator', description: 'bar' },
 	{ id: 9, src: developer, title: 'developer', description: 'bar' },
+	{ id: 10, src: tictactoe, title: 'tictactoe', description: 'bar' },
 ];
 
 

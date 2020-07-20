@@ -62,6 +62,30 @@ class Projects extends Component {
 						 <IconButton name='share' />
 					 </CardMenu>
 				</Card>
+					<Card  className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
+					 <CardTitle style={{height: '100%', 
+					 	background: `url(${images[9].src}) center / cover`}}>
+							<span	> Tic Tac Toe Game </span>
+					 </CardTitle>
+					 <CardText style={{ color: '#000', lineHeight: '1.5'}}>
+						 This Project is a tictactoe game, designed using vanilla JavaScript <br/> <br />
+
+						 <strong>Tools: </strong> Node.js, JavaScript, Webpack, npm, CSS, ES6
+					 </CardText>
+					 <CardActions>
+						 <a href="https://github.com/macbright/JS-tic-tac-toe"
+								rel="noopener noreferrer" target="_blank" >
+								Github
+							</a>	
+							<a href="https://raw.githack.com/macbright/JS-tic-tac-toe/tic-tac-toe/index.html"
+								rel="noopener noreferrer" target="_blank" >
+								Live Demo
+							</a>
+					 </CardActions>
+					 <CardMenu style={{color: '#fff'}}>
+						 <IconButton name='share' />
+					 </CardMenu>
+				</Card>
 				</div>
 			)
 		} else if(this.state.activeTab === 1){
