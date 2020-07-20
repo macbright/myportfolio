@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
-import bright from '../image/bright.jpg'
+import bright from '../image/bright.jpg';
+import Projects from './projects';
 
 class LandingPage extends Component {
 	render() {
 		return (
-			<div>
-				<div style={{ width: '100%', margin: 'auto'}}>
+			<div >
+				<div className="landing-top" style={{ width: '100%', margin: 'auto', height: '90vh'}}>
 					<Grid className="landing-grid">
 						<Cell col={12}>
 							<img 
@@ -16,8 +17,7 @@ class LandingPage extends Component {
 							/>
 
 							<div className="banner-text">
-								< marquee> <h1> Frontend / Backend / Full Stack Web Developer</h1> </marquee>
-							
+								<h2 style={{color:'white', fontWeight: 'bold', marginTop: '5px'}}> Frontend / Backend / Full Stack Web Developer </h2> 
 								<hr />
 								<p> HTML/CSS | Bootstrap  | Semantic UI  | JavaSript  | Webpack  | React |  
 									Angular | Ruby | Ruby on Rails | Postgre </p>
@@ -38,8 +38,23 @@ class LandingPage extends Component {
 							</div>
 						</Cell>
 					</Grid>
+					
+					<div className="body">
+							<div class="box">
+							<span></span>
+							<span></span>
+							<span></span>
+							</div>
+							
+					</div>
+					
 				</div>
+				<br/>
+				<br />
+			
+				< Projects />
 			</div>
+			
 		)
 	}
 }

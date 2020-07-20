@@ -13,7 +13,7 @@ class Projects extends Component {
 			return(
 				<div className="projects-grid cards">
 					<Card className="card" shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
-					 <CardTitle style={{height: '200px', 
+					 <CardTitle style={{height: '100%', 
 					 	background: `url(${images[6].src}) center / cover`}}>
 							<span	> React Calculator </span>
 					 </CardTitle>
@@ -69,7 +69,7 @@ class Projects extends Component {
 				
 				<div className="projects-grid cards">
 					<Card className="card"  shadow={5} style={{ maxWidth: '450px', margin: 'auto'}}>
-					<CardTitle style={{height: '200px', 
+					<CardTitle style={{height: '100%', 
 					 	background: `url(${images[4].src}) center / cover`}}>
 							<span	> Todo List (ES6) </span>
 					 </CardTitle>
